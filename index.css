@@ -369,6 +369,33 @@ input:checked + .slider:before {
   border-color: transparent !important;
 }
 
+.pricing-name-silver{
+  overflow: hidden;
+  background: linear-gradient(150deg , white, gray);
+}
+
+.silver-pricing{
+  background: linear-gradient(110deg,rgb(231, 229, 229) ,gray);
+}
+
+.free-trial{
+  background-color: #030343;
+  
+}
+
+.started-btn2:hover {
+  background-color: #0044eb !important;
+  
+}
+.started-btn2:hover i{
+color: white !important;
+}
+
+.free-trial{
+  padding: 60px 100px 60px 100px ;
+}
+
+
 @keyframes pricingAbsoluteObject {
   0% {
     transform: translateY(0px);
@@ -389,6 +416,9 @@ input:checked + .slider:before {
 @media screen and (max-width: 990px) {
   .integration-accordions {
     display: none;
+  }
+  .trial-btn{
+    justify-content: center !important;
   }
 }
 
@@ -419,5 +449,11 @@ input:checked + .slider:before {
   .swiper-button-prev,
   .swiper-button-next {
     display: none;
+  }
+}
+
+@media screen and (max-width:471px) {
+  .free-trial{
+    padding: 40px 20px 40px 20px !important;
   }
 }
