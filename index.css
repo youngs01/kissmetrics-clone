@@ -130,14 +130,12 @@ p {
 
 .heading-gradient {
   width: fit-content;
-  background: linear-gradient(
-    to right,
-    #3d9bfc,
-    #7b40e4,
-    #f53a8b 100px,
-    #ee704a,
-    #2ddd4f
-  );
+  background: linear-gradient(to right,
+      #3d9bfc,
+      #7b40e4,
+      #f53a8b 100px,
+      #ee704a,
+      #2ddd4f);
   background-clip: text;
   color: transparent;
 }
@@ -316,15 +314,15 @@ p {
   transition: 0.4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #39c99c;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #39c99c;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -355,46 +353,54 @@ input:checked + .slider:before {
   animation: pricingAbsoluteObject 1s alternate infinite;
 }
 
-.MTU-conatiner{
+.MTU-conatiner {
   background-color: #0043eb21;
 }
 
-.MTU-conatiner a{
+.MTU-conatiner a {
   transition: 0.5s;
 }
 
-.MTU-conatiner a:hover{
+.MTU-conatiner a:hover {
   background-color: black !important;
   color: white;
   border-color: transparent !important;
 }
 
-.pricing-name-silver{
+.pricing-name-silver {
   overflow: hidden;
-  background: linear-gradient(150deg , white, gray);
+  background: linear-gradient(150deg, white, gray);
 }
 
-.silver-pricing{
-  background: linear-gradient(110deg,rgb(231, 229, 229) ,gray);
+.silver-pricing {
+  background: linear-gradient(110deg, rgb(231, 229, 229), gray);
 }
 
-.free-trial{
+.free-trial {
   background-color: #030343;
-  
+
 }
 
 .started-btn2:hover {
   background-color: #0044eb !important;
-  
-}
-.started-btn2:hover i{
-color: white !important;
+
 }
 
-.free-trial{
-  padding: 60px 100px 60px 100px ;
+.started-btn2:hover i {
+  color: white !important;
 }
 
+.free-trial {
+  padding: 60px 100px 60px 100px;
+}
+
+.btn {
+  transition: all ease 0.5s;
+}
+
+.btn:hover {
+  color: black !important;
+}
 
 @keyframes pricingAbsoluteObject {
   0% {
@@ -417,12 +423,14 @@ color: white !important;
   .integration-accordions {
     display: none;
   }
-  .trial-btn{
+
+  .trial-btn {
     justify-content: center !important;
   }
 }
 
 @media screen and (max-width: 768px) {
+
   .fs-60,
   .fs-50 {
     font-size: 45px;
@@ -431,6 +439,21 @@ color: white !important;
   .pt-100 {
     padding-top: 60px;
   }
+
+  .free-trial {
+    padding: 40px 20px 40px 20px !important;
+  }
+
+.footer-div{
+  justify-content: center !important;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+}
+
 }
 
 @media screen and (max-width: 576px) {
@@ -453,7 +476,5 @@ color: white !important;
 }
 
 @media screen and (max-width:471px) {
-  .free-trial{
-    padding: 40px 20px 40px 20px !important;
-  }
+ 
 }
