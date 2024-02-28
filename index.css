@@ -367,14 +367,6 @@ input:checked+.slider:before {
   border-color: transparent !important;
 }
 
-.pricing-name-silver {
-  overflow: hidden;
-  background: linear-gradient(150deg, white, gray);
-}
-
-.silver-pricing {
-  background: linear-gradient(110deg, rgb(231, 229, 229), gray);
-}
 
 .free-trial {
   background-color: #030343;
@@ -401,6 +393,28 @@ input:checked+.slider:before {
 .btn:hover {
   color: black !important;
 }
+
+.bg-secondary1{
+  background-color: #AFAFAF;
+}
+
+/* .pricing-name-silver {
+  overflow: hidden;
+  background: linear-gradient(150deg, white, gray);
+} */
+
+.silver-pricing {
+  background: linear-gradient(110deg, rgb(231, 229, 229), gray);
+}
+
+
+
+
+
+
+
+
+
 
 @keyframes pricingAbsoluteObject {
   0% {
